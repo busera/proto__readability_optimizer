@@ -65,7 +65,7 @@ conda activate readability
 ## Usage
 
 1. Start the application
-2. Choose between Quick Check or full analysis
+2. Choose Quick Check
 3. Input your text
 4. Review the analysis results and suggestions
 
@@ -76,6 +76,19 @@ conda activate readability
 - Readability refers to how easy a piece of writing can be read. This depends on a range of factors including content, structure, style, layout and design.
 - A readability formula is one of many methods of measuring or predicting the difficulty level of a text by analyzing the text.
 - A conventional readability formula measures average word length and sentence length to provide a grade-level score.
+
+**Advantages and Disadvantages**
+
+
+| Pros | Cons |
+|------|------|
+| Measures grade-level readability | Readability ≠ understandability |
+| Provides information to reach target audience | Cannot measure "real" word/phrase complexity |
+| Saves time by predicting reader understanding | Results may vary between formulas |
+| Easy-to-use, text-based formulas | Cannot measure context, prior knowledge, or concept difficulty |
+| Helps convert to plain language | |
+| Can increase reader retention and comprehension | |
+
 
 ### McAlpine EFLAW
 
@@ -183,17 +196,6 @@ This is not directly linked to one of the readability scores. However, avoiding 
 
 - Simple word list based on plainlanguage.gov: https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/ 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
-
-## Advantages and Disadvantages
-
-| Pros | Cons |
-|------|------|
-| Measures grade-level readability | Readability ≠ understandability |
-| Provides information to reach target audience | Cannot measure "real" word/phrase complexity |
-| Saves time by predicting reader understanding | Results may vary between formulas |
-| Easy-to-use, text-based formulas | Cannot measure context, prior knowledge, or concept difficulty |
-| Helps convert to plain language | |
-| Can increase reader retention and comprehension | |
 
 
 ## Future Development
