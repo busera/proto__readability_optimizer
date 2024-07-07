@@ -8,11 +8,12 @@ The prototype developed here later served as the foundation for establishing an 
 
 The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension. It serves as both a learning exercise in applied data science and a practical tool for improving written communication in professional settings.
 
+To create a user-friendly interface, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
+
 ## Features
 
 | Feature | Description |
 |---------|-------------|
-| Report Analysis | Analyzes observation paragraphs from Internal Audit report templates and Investigation Reports from Global Security |
 | Quick Check | Offers on-the-go text analysis |
 | Readability Scores | Provides scores based on McAlpine EFLAW and Gunning Fog Index tests |
 | Sentence Analysis | Checks sentence length |
@@ -68,7 +69,7 @@ conda activate readability
 
 ## Usage
 
-1. Start the application
+1. Start the application with: "streamlit run scripts/app.py" from the project root folder
 2. Choose Quick Check
 3. Input your text
 4. Review the analysis results and suggestions
@@ -213,9 +214,6 @@ We have several plans to enhance and expand the Readability Optimiser:
 2. **Integration of Local Large Language Models (LLMs)**:
    - Incorporate local LLMs to provide additional readability evaluation.
    - Leverage LLMs to generate more sophisticated improvement suggestions based on the results of rule-based readability tests.
-
-3. **Machine Learning Enhancement**:
-   - Explore the integration of machine learning techniques to address some of the current limitations in readability assessment.
 
 These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. We welcome contributions and suggestions in these areas.
 
