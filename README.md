@@ -2,7 +2,11 @@
 
 ## Overview
 
-Readability Optimiser is a tool designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. It uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension.
+Readability Optimiser is a prototype tool designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. This project was one of my first endeavors as preparation for my upcoming Masters in Applied Data Science (MADS) at the University of Michigan.
+
+The prototype developed here later served as the foundation for establishing an in-house solution. This solution was expanded to import the audit report template and analyze all observation paragraphs for their readability, demonstrating the practical application and scalability of the initial concept.
+
+The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension. It serves as both a learning exercise in applied data science and a practical tool for improving written communication in professional settings.
 
 ## Features
 
