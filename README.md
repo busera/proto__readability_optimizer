@@ -35,8 +35,6 @@ There are several plans to enhance and expand the Readability Optimiser:
    
 3. **Adjusting scoring and rating thresholds**
 
-These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. Contributions and suggestions in these areas are welcome.
-
 ## Project Structure
 
     ├── README.md             <- The top-level README for developers using this project.
@@ -186,7 +184,7 @@ The longer the sentences, the less readers understand, according to research by 
 Author Martin Cutts makes the following recommendation in the Oxford Guide To Plain English:
 "…make the average sentence length 15–20 words… More people fear snakes than full stops, so they recoil when a long sentence comes hissing across the page."
 
-Source: https://read.amazon.co.uk/kp/embed?asin=B00FZSX76G&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_aFkyCbSKPGCZN
+Source: Not available, anymore
 
 ### Plainlanguage.gov
 Write short sentences: Sentences loaded with dependent clauses and exceptions confuse the audience by losing the main point in a forest of words.
