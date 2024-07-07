@@ -10,8 +10,6 @@ The tool employs various readability tests and analyses to provide insights and 
 
 As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. Consequently, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
 
-## Features
-
 | Feature | Description |
 |---------|-------------|
 | Quick Check | Offers on-the-go text analysis |
@@ -22,6 +20,22 @@ As part of the quick prototyping approach, the solution utilizes Streamlit, a po
 | Visual Statistics | Provides visual representation of analysis results |
 | Jargon Check | Identifies potential jargon |
 | Word Simplification | Suggests simpler alternatives for complex words |
+
+## Future Development
+
+There are several plans to enhance and expand the Readability Optimiser:
+
+1. **Code Refactoring**: 
+   - Review and refactor the existing codebase for improved clarity and efficiency.
+   - Transition towards a more function-based approach to enhance modularity and maintainability.
+
+2. **Integration of Local Large Language Models (LLMs)**:
+   - Incorporate local LLMs to provide additional readability evaluation.
+   - Leverage LLMs to generate more sophisticated improvement suggestions based on the results of rule-based readability tests.
+   
+3. **Adjusting scoring and rating thresholds**
+
+These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. Contributions and suggestions in these areas are welcome.
 
 ## Project Structure
 
@@ -212,18 +226,3 @@ This is not directly linked to one of the readability scores. However, avoiding 
 - Simple word list based on plainlanguage.gov: https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/ 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
-## Future Development
-
-There are several plans to enhance and expand the Readability Optimiser:
-
-1. **Code Refactoring**: 
-   - Review and refactor the existing codebase for improved clarity and efficiency.
-   - Transition towards a more function-based approach to enhance modularity and maintainability.
-
-2. **Integration of Local Large Language Models (LLMs)**:
-   - Incorporate local LLMs to provide additional readability evaluation.
-   - Leverage LLMs to generate more sophisticated improvement suggestions based on the results of rule-based readability tests.
-   
-3. **Adjusting scoring and rating thresholds**
-
-These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. Contributions and suggestions in these areas are welcome.
