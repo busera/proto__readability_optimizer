@@ -8,7 +8,7 @@ The prototype created here later served as the foundation for an in-house soluti
 
 The tool employs various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension, thereby improving written communication in professional settings.
 
-As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. Consequently, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
+As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2020, Streamlit did not support multipage navigation. Consequently, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
 
 | Feature | Description |
 |---------|-------------|
