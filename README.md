@@ -18,6 +18,59 @@ Readability Optimiser is a tool designed to help authors improve the readability
 | Jargon Check | Identifies potential jargon |
 | Word Simplification | Suggests simpler alternatives for complex words |
 
+
+## Project Structure
+
+    ├── README.md             <- The top-level README for developers using this project.
+    ├── LICENSE               <- The license file for the project.
+    ├── environment_conda.yml <- The requirements file for conda environments.
+    │
+    ├── data
+    │   └── [contents not visible in the image]
+    │
+    ├── docs                  <- Documentation folder
+    │   └── [contents not visible in the image]
+    │
+    ├── resources
+    │   ├── list_difficult_words.csv
+    │   ├── list_jargon_check.csv
+    │   ├── list_simple_words.csv
+    │   ├── rcBOT_config.ini
+    │   └── release_notes.txt
+    │
+    ├── scripts
+    │   ├── app.py
+    │   ├── app1.py
+    │   ├── app2.py
+    │   └── func_readability.py
+    │
+    ├── .gitattributes
+    └── .gitignore
+
+
+## Installation
+
+We recommend using `conda` as the foundation because it simplifies the management of required Python versions.
+
+To create the project's conda environment, use:
+
+```bash
+conda env create -f environment_conda.yml
+```
+
+Once the environment is created, activate it:
+
+```bash
+conda activate readability
+```
+
+## Usage
+
+1. Start the application
+2. Choose between Quick Check or full analysis
+3. Input your text
+4. Review the analysis results and suggestions
+
 ## Readability Tests
 
 ### Readability and Readability Formulas
@@ -133,13 +186,6 @@ This is not directly linked to one of the readability scores. However, avoiding 
 - Simple word list based on plainlanguage.gov: https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/ 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
-## Usage
-
-1. Start the application
-2. Choose between Quick Check or full analysis
-3. Input your text
-4. Review the analysis results and suggestions
-
 ## Advantages and Disadvantages
 
 | Pros | Cons |
@@ -151,26 +197,22 @@ This is not directly linked to one of the readability scores. However, using "si
 | Helps convert to plain language | |
 | Can increase reader retention and comprehension | |
 
+
 ## Future Development
 
-Some limitations may be addressed in future versions, potentially incorporating machine learning techniques to enhance analysis capabilities.
+We have several plans to enhance and expand the Readability Optimiser:
 
-## Contributing
+1. **Code Refactoring**: 
+   - Review and refactor the existing codebase for improved clarity and efficiency.
+   - Transition towards a more function-based approach to enhance modularity and maintainability.
 
-We welcome contributions to the Readability Optimiser project. If you'd like to contribute, please follow these steps:
+2. **Integration of Local Large Language Models (LLMs)**:
+   - Incorporate local LLMs to provide additional readability evaluation.
+   - Leverage LLMs to generate more sophisticated improvement suggestions based on the results of rule-based readability tests.
 
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes and commit them with clear, descriptive messages
-4. Push your changes to your fork
-5. Submit a pull request with a detailed description of your changes
+3. **Machine Learning Enhancement**:
+   - Explore the integration of machine learning techniques to address some of the current limitations in readability assessment.
 
-Please ensure your code adheres to the project's coding standards and include appropriate tests for new features.
+These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. We welcome contributions and suggestions in these areas.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions, suggestions, or support, please open an issue in the GitHub repository or contact the project maintainers at [your-email@example.com].
