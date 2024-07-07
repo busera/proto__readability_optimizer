@@ -2,13 +2,13 @@
 
 ## Overview
 
-Readability Optimiser is a prototype tool designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. This project was one of my first endeavors as preparation for my upcoming Masters in Applied Data Science (MADS) at the University of Michigan.
+Readability Optimiser is a **prototype tool** designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. This project was one of my first endeavors as preparation for my upcoming Masters in Applied Data Science (MADS) at the University of Michigan.
 
 The prototype developed here later served as the foundation for establishing an in-house solution. This solution was expanded to **import** the audit report template and analyze all observation paragraphs for their readability.
 
 The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension for improving written communication in professional settings.
 
-As part of the quick prototyping approach the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
+As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
 
 ## Features
 
@@ -22,7 +22,6 @@ As part of the quick prototyping approach the solution utilizes Streamlit, a pop
 | Visual Statistics | Provides visual representation of analysis results |
 | Jargon Check | Identifies potential jargon |
 | Word Simplification | Suggests simpler alternatives for complex words |
-
 
 ## Project Structure
 
@@ -50,10 +49,9 @@ As part of the quick prototyping approach the solution utilizes Streamlit, a pop
     ├── .gitattributes
     └── .gitignore
 
-
 ## Installation
 
-We recommend using `conda` as the foundation because it simplifies the management of required Python versions.
+It's recommended to use `conda` as the foundation because it simplifies the management of required Python versions.
 
 To create the project's conda environment, use:
 
@@ -83,7 +81,6 @@ conda activate readability
 - A conventional readability formula measures average word length and sentence length to provide a grade-level score.
 
 **Advantages and Disadvantages**
-
 
 | Pros | Cons |
 |------|------|
@@ -186,7 +183,7 @@ Source: https://www.plainlanguage.gov/guidelines/concise/write-short-sentences/
 
 Sentiment analysis is the process of determining the attitude or the emotion of the writer, i.e., whether it is positive or negative or neutral.
 
-We are using the TextBlob library to determine the sentiment and objectivity. For this analysis Textblob returns two properties, polarity, and subjectivity:
+The tool uses the TextBlob library to determine the sentiment and objectivity. For this analysis Textblob returns two properties, polarity, and subjectivity:
 
 | Measure | Range | Interpretation |
 |---------|-------|----------------|
@@ -215,10 +212,9 @@ This is not directly linked to one of the readability scores. However, avoiding 
 - Simple word list based on plainlanguage.gov: https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/ 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
-
 ## Future Development
 
-We have several plans to enhance and expand the Readability Optimiser:
+There are several plans to enhance and expand the Readability Optimiser:
 
 1. **Code Refactoring**: 
    - Review and refactor the existing codebase for improved clarity and efficiency.
@@ -227,7 +223,7 @@ We have several plans to enhance and expand the Readability Optimiser:
 2. **Integration of Local Large Language Models (LLMs)**:
    - Incorporate local LLMs to provide additional readability evaluation.
    - Leverage LLMs to generate more sophisticated improvement suggestions based on the results of rule-based readability tests.
+   
+3. **Adjusting scoring and rating thresholds**
 
-These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. We welcome contributions and suggestions in these areas.
-
-
+These developments aim to make the Readability Optimiser more powerful, accurate, and user-friendly. Contributions and suggestions in these areas are welcome.
