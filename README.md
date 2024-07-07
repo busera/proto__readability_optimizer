@@ -2,13 +2,13 @@
 
 ## Overview
 
-Readability Optimiser is a **prototype tool** designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. This project was one of my first endeavors as preparation for my upcoming Masters in Applied Data Science (MADS) at the University of Michigan.
+Originally developed in my free time to practice Python, Readability Optimizer is a **prototype tool** designed to help authors improve the readability of their texts. This project marked one of my first endeavors in preparation for my upcoming Master's in Applied Data Science (MADS) at the University of Michigan.
 
-The prototype developed here later served as the foundation for establishing an in-house solution. This solution was expanded to **import** the audit report template and analyze all observation paragraphs for their readability.
+The prototype created here later served as the foundation for an in-house solution, particularly for internal audit reports. This solution was expanded to **import** the audit report template and analyze all observation paragraphs for readability.
 
-The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension for improving written communication in professional settings.
+The tool employs various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension, thereby improving written communication in professional settings.
 
-As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
+As part of the quick prototyping approach, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. Consequently, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
 
 ## Features
 
