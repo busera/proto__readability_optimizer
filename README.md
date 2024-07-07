@@ -222,5 +222,6 @@ This is not directly linked to one of the readability scores. However, avoiding 
 ## Words to be Simplified
 
 - Simple word list based on plainlanguage.gov: https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/ 
+
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
