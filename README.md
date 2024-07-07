@@ -4,11 +4,11 @@
 
 Readability Optimiser is a prototype tool designed to help authors improve the readability of their texts, particularly for internal audit reports and investigation reports. This project was one of my first endeavors as preparation for my upcoming Masters in Applied Data Science (MADS) at the University of Michigan.
 
-The prototype developed here later served as the foundation for establishing an in-house solution. This solution was expanded to import the audit report template and analyze all observation paragraphs for their readability, demonstrating the practical application and scalability of the initial concept.
+The prototype developed here later served as the foundation for establishing an in-house solution. This solution was expanded to **import** the audit report template and analyze all observation paragraphs for their readability.
 
-The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension. It serves as both a learning exercise in applied data science and a practical tool for improving written communication in professional settings.
+The tool uses various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension for improving written communication in professional settings.
 
-To create a user-friendly interface, the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
+As part of the quick prototyping approach the solution utilizes Streamlit, a popular Python library for building interactive web applications. It's worth noting that at the time of development in 2021, Streamlit did not support multipage navigation. As a result, a custom workaround was implemented to achieve a multipage-like navigation experience within the application.
 
 ## Features
 
