@@ -69,7 +69,7 @@ conda activate readability
 
 ## Usage
 
-1. Start the application with: "streamlit run scripts/app.py" from the project root folder
+1. Start the application with: `streamlit run scripts/app.py` from the project root folder
 2. Choose Quick Check
 3. Input your text
 4. Review the analysis results and suggestions
