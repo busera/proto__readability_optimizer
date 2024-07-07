@@ -26,10 +26,8 @@ Readability Optimiser is a tool designed to help authors improve the readability
     ├── environment_conda.yml <- The requirements file for conda environments.
     │
     ├── data
-    │   └── [contents not visible in the image]
     │
     ├── docs                  <- Documentation folder
-    │   └── [contents not visible in the image]
     │
     ├── resources
     │   ├── list_difficult_words.csv
