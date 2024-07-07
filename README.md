@@ -4,7 +4,7 @@
 
 Originally developed in my free time to practice Python, Readability Optimizer is a **prototype tool** designed to help authors improve the readability of their texts. This project marked one of my first endeavors in preparation for my upcoming Master's in Applied Data Science (MADS) at the University of Michigan.
 
-The prototype created here later served as the foundation for an in-house solution, particularly for internal audit reports. This solution was expanded to **import** the audit report template and analyze all observation paragraphs for readability.
+This prototype served as the foundation for an in-house solution, particularly for internal audit reports and was expanded to **import** the reports to analyze all observation paragraphs for readability.
 
 The tool employs various readability tests and analyses to provide insights and suggestions for enhancing text clarity and comprehension, thereby improving written communication in professional settings.
 
