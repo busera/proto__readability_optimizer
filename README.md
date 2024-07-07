@@ -1,4 +1,4 @@
-# Readability Optimiser
+# Readability Optimizer
 
 ## Overview
 
