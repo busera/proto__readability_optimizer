@@ -94,6 +94,19 @@ conda activate readability
 | Helps convert to plain language | |
 | Can increase reader retention and comprehension | |
 
+### Thresholds and Scoring
+
+The Readability Optimiser uses the following thresholds for various readability checks:
+
+| Measure | Recommended Threshold |
+|---------|------------------------|
+| Maximum Sentence Length | 20 words or lower |
+| Flesch Reading Ease Score (FRES) | 49 or higher |
+| EFLAW Score | 25 or lower |
+| Gunning Fog Score (GFS) | 17 or lower |
+| Consensus Score | 18 or lower |
+
+These thresholds serve as benchmarks for evaluating the readability of the text. Scores that meet or exceed these thresholds (in the appropriate direction) indicate better readability.
 
 ### McAlpine EFLAW
 
