@@ -231,4 +231,6 @@ This is not directly linked to one of the readability scores. However, avoiding 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
 ## Screenshots
-![Screenshot](docs/example_screenshot.png)
+![Startpage](docs/startpage.png)
+
+![Exampe](docs/example_screenshot.png)
