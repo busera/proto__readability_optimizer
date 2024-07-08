@@ -48,7 +48,7 @@ def app():
     bot_version, bot_release_date = load_config(CONFIG_FILE)
 
     # Render streamlit webpage
-    st.subheader('rcBOT: Bot for automated readability check')
+    st.subheader('Readability Optimizer')
     st.write(" Made with ❤️ in Swizterland ⛰️​")
     st.write('')
     st.write('')
