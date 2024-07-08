@@ -69,6 +69,10 @@ It's recommended to use `conda` as the foundation because it simplifies the mana
 To create the project's conda environment, use:
 
 ```bash
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda update conda
+
 conda env create -f environment_conda.yml --verbose
 ```
 
@@ -226,3 +230,5 @@ This is not directly linked to one of the readability scores. However, avoiding 
 
 This is not directly linked to one of the readability scores. However, using "simpler" words should improve the readability in general.
 
+## Screenshots
+![Screenshot](docs/example_screenshot.png)

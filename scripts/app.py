@@ -55,5 +55,5 @@ st.sidebar.title('Navigation')
 selection = st.sidebar.radio("", list(PAGES.keys()))
 page = PAGES[selection]
 st.sidebar.write('')
-st.sidebar.write(f'User Manual: {link}', unsafe_allow_html=True)
+#st.sidebar.write(f'User Manual: {link}', unsafe_allow_html=True)
 page.app()

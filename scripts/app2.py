@@ -83,7 +83,7 @@ Input text: `This is a quick reader check test.`
 import streamlit as st  # to render streamlit webpage
 import pandas as pd  # to store text, stats, scores and results
 import func_readability as rc  # to import the readability algorithms
-import func_logging as func_logging  # for logging functionality
+
 
 
 # --- Global Parameters ---
@@ -140,7 +140,7 @@ def app():
 
             ## Starting logging (primarily for bot usage statistics)
             message = 'QUICK CHECK triggered.'
-            func_logging.trigger_logging(message)
+            #func_logging.trigger_logging(message)
 
             ## Calculate scores and render readability report
             st.title("Readability Report")
@@ -315,4 +315,4 @@ def app():
             text = 'user manual'
             link = rc.make_url_link(URL, text)
             st.sidebar.subheader("Readability Test Insights")
-            st.sidebar.write(f'More insights regarding EFLAW and GFOGS are available in the {link}. See section "Readability Tests".', unsafe_allow_html=True)
+            st.sidebar.write(f'More insights regarding EFLAW and GFOGS are available in the README file. See section "Readability Tests".', unsafe_allow_html=True)
