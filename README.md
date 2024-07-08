@@ -233,4 +233,6 @@ This is not directly linked to one of the readability scores. However, using "si
 # Screenshots
 ![Startpage](docs/startpage.png)
 
+***
+
 ![Exampe](docs/example_screenshot.png)
