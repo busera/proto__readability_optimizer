@@ -72,17 +72,11 @@ Prepare conda (if required):
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 conda update conda
-
-conda env create -f environment_conda.yml --verbose
 ```
 
 Create the project's conda project environment:
 
 ```bash
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-conda update conda
-
 conda env create -f environment_conda.yml --verbose
 ```
 
@@ -90,6 +84,11 @@ Activate environment:
 
 ```bash
 conda activate readability
+```
+
+Run application from the project's root folder:
+```bash
+streamlit run scripts/app.py
 ```
 
 ## Usage
