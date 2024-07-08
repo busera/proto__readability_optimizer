@@ -1,4 +1,5 @@
 # Readability Optimizer
+Tested on MacOS.
 
 ## Overview
 
@@ -68,7 +69,7 @@ It's recommended to use `conda` as the foundation because it simplifies the mana
 To create the project's conda environment, use:
 
 ```bash
-conda env create -f environment_conda.yml
+conda env create -f environment_conda.yml --verbose
 ```
 
 Once the environment is created, activate it:
